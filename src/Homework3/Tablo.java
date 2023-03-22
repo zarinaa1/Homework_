@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Tablo {
     public static void main(String[] args) {
-        Random rnd = new Random(9000);
+        Random rnd = new Random(100);
         int a = rnd.nextInt();
         int b = a /60 /60;
         switch (b){
